@@ -1,0 +1,14 @@
+Should be created an table for the topics, containing, at least, an ID (using a
+surrogate key and being the primary key) and the topic names that would be
+unique and not null; Having created the topics table, we should switch the
+topics in the bad_posts by its respective ID and constraint it as an foreign
+key.
+
+Should be created an table for the users, containing, at least, an ID (using a
+surrogate key and being the primary key) and a username that would be unique and
+not null; Having created the users table, we should switch the username in both
+tables (bad_posts and bad_comments) by its respective ID and make it an foreign
+key.
+
+The up and downvotes should be a separate table containing the post id and the
+user id that up/downvoted the post.
